@@ -6,7 +6,7 @@ Currently do-node only supports domain and domain records functions.
 
 ## Installation
 
-`npm install --save do-node`
+`npm install --save @codefeathers/do-node`
 
 ## Usage
 
@@ -37,12 +37,4 @@ digitalOcean.domain.Records.Update({
 	}, 35459888)
 	.then(res => console.log(res))
 	.catch(err => console.log(err.response.data.message));
-```
-
-## In the browser
-
-Use an unpkg script tag to use `do-node` from the browser.
-
-```HTML
-<script src = "https://unpkg.com/do-node">
 ```

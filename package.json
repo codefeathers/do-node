@@ -1,6 +1,6 @@
 {
-  "name": "do-node",
-  "version": "0.2.0",
+  "name": "@codefeathers/do-node",
+  "version": "0.2.1",
   "description": "A (partial) DigitalOcean wrapper for Node.",
   "main": "index.js",
   "scripts": {
